@@ -5,7 +5,7 @@
   "main": "lib/index.js",
   "scripts": {
     "eslint": "eslint .",
-    "test": "mocha"
+    "test": "mocha --recursive --require ./test/index.js"
   },
   "repository": {
     "type": "git",
