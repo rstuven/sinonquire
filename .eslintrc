@@ -1,0 +1,22 @@
+{
+  "extends": "eslint-config-airbnb/base",
+  "env": {
+    "mocha": true,
+    "node": true
+  },
+  "globals": {
+    "expect": true
+  },
+  "rules": {
+    "func-names": 0,
+    "padded-blocks": 0,
+    "no-console": 0,
+    "no-unused-vars": 1,
+    "no-use-before-define": [2, "nofunc"],
+    "no-unused-expressions": 0,
+    "no-reserved-keys": 0,
+    "no-var": 0,
+    "vars-on-top": 0,
+    "space-infix-ops": 0
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "name": "sinonquire",
+  "version": "1.0.0",
+  "description": "Automatically stubs CommonJS modules returned by require() using Sinon.JS",
+  "main": "lib/index.js",
+  "scripts": {
+    "eslint": "eslint .",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rstuven/sinonquire.git"
+  },
+  "keywords": [
+    "sinon",
+    "require",
+    "jest"
+  ],
+  "author": "Ricardo Stuven <rstuven@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rstuven/sinonquire/issues"
+  },
+  "homepage": "https://github.com/rstuven/sinonquire#readme",
+  "devDependencies": {
+    "chai": "^3.4.0",
+    "eslint": "^1.7.3",
+    "eslint-config-airbnb": "^0.1.0",
+    "mocha": "^2.3.3",
+    "sinon": "^1.17.2"
+  },
+  "peerDependencies": {
+    "sinon": "^1.17.2"
+  },
+  "dependencies": {
+    "babel-eslint": "^4.1.3"
+  }
+}
