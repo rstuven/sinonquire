@@ -1,6 +1,6 @@
 {
   "name": "sinonquire",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Automatically stubs CommonJS modules returned by require() using Sinon.JS",
   "main": "lib/index.js",
   "scripts": {
