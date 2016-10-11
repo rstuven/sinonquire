@@ -23,6 +23,13 @@ describe('sinonquire', function() {
     expect(module.xyz.withArgs('c').called).to.be.false;
   });
 
+  it('should support ES module default', function() {
+    var module = require('../features/esModule.js');
+    module.xyz.returns(123);
+    var yyy = module.xyz();
+    expect(yyy).to.equal(123);
+  });
+
   it('should not stub', function() {
     sinonquire.dontStub('../features/feature2.js');
     var feature1 = require('../features/feature1.js');
