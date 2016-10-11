@@ -7,7 +7,7 @@
 ## Installation
 
 ```sh
-npm install --save sinonquire
+npm install --save-dev sinonquire
 ```
 
 ## Usage
